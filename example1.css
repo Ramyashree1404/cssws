@@ -1,0 +1,53 @@
+section
+{
+    height: 260px;
+    width: 290px;
+    /* border: 2px solid red; */
+    margin: 50px auto;
+    position: relative;
+    
+}
+section img
+{
+    height: 100%;
+    width: 100%;
+}
+.main-content
+{
+ height:0%;
+ width: 100%;
+ /* border: 2px solid green; */
+ display: flex;
+ justify-content: space-between;
+ position: absolute;
+ bottom: 0;
+ background-color: rgba(255, 255, 255, 0.6);
+ overflow: hidden;
+ transition: height .4s .2s;
+}
+.content
+{
+    /* border: 2px solid orange; */
+    height: 95%;
+    line-height: 4px;
+}
+.content p
+{
+    color: rgb(107, 102, 102);
+}
+.icon
+{
+    margin-top: 25px;
+    margin-right: 14px;
+    
+}
+.icon i
+{
+    color: rgb(103, 96, 96);
+    font-size: 20px;
+}
+
+section:hover .main-content
+{
+    height: 27%;
+}

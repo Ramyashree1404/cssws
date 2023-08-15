@@ -1,0 +1,25 @@
+.trans 
+{
+    border: 2px solid red;
+    height: 200px;
+    width: 200px;
+    margin: 100px 100px;
+    transition: transform 2s;
+    transform: rotate(360deg);
+    
+}
+/* img
+{
+    height: 100%;
+    width: 100%;
+}
+div:hover 
+{
+    transform: rotate(-360deg);
+    /* transform: rotatex(360deg); */
+    /* transform: rotatey(180deg); */
+    /* transform: scale(1.08); */
+    /* transform: scale(1.2,1.1); */
+    /* transform: translate(10px); */
+    /* transform: translate(10px,10px); 
+} */

@@ -1,0 +1,130 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+html,body
+{
+    width: 100%;
+}
+
+/* header starts */
+header
+{
+    background-color: rgba(63, 187, 192, 0.941);
+    height: 47px;
+    width: 100%;
+    color: white;
+    padding: 15px 75px;
+    font-weight: bold;
+    letter-spacing: 1px;
+  
+}
+
+span
+{
+margin-left: 560px;
+}
+/* header ends */
+
+/* nav starts */
+.navi
+{
+    height:65px;
+   background-color: white;
+    width: 100%;
+    padding: 20px 20px;
+    margin-bottom: 50px;
+}
+.logo
+{
+    font-size: 23px;
+    font-weight: bolder;
+    color: black;
+    text-decoration: none;
+    margin-left:80px ;
+}
+
+.navi ul
+{
+    display: inline-block;
+    margin-right: 30px;
+    margin-left: 200px;
+    
+
+}
+
+.navi ul li
+{
+    display: inline;
+    
+
+}
+
+.navi ul li a
+{
+    text-decoration: none;
+    padding: 10px ;
+    color: black;
+    font-weight: bold;
+
+}
+
+.anc
+{
+text-decoration: none;
+background-color:rgb(63, 187, 192) ;
+padding: 7px 5px;
+border-radius: 4px;
+}
+/* nav ends */
+
+/* body start */
+
+.medi
+{
+    height: 250px;
+    width:800px;
+    /* border:2px solid red; */
+    margin: 150px auto;
+    text-align: center;
+    padding: 48px 10px;
+    background-color: white;
+    border-top: 4px solid #3fbbc0;
+    
+   
+  
+}
+body
+{
+ background-image: linear-gradient(rgba(186, 225, 227, 0.007),rgba(190, 217, 218, 0.347)),url(https://bootstrapmade.com/demo/templates/Medicio/assets/img/slide/slide-2.jpg);
+ background-position: center center;
+ background-repeat: no-repeat;
+ background-size: 100% 100%;
+ background-attachment: fixed;
+}
+
+.medi a
+{
+text-decoration: none;
+background-color:#3fbbc0 ;
+padding: 9px 15px;
+border-radius: 4px;
+margin-bottom: 40px;
+
+}
+.medi p
+{
+    margin-bottom: 30px;
+  
+}
+.medi h2
+{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+

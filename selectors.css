@@ -1,0 +1,99 @@
+/* element selector h1
+{
+    color:rgb(178, 127, 255);
+}  */
+
+/* group selector */
+h1,h2
+{
+    color:rgb(178, 127, 255);
+}
+
+/* class selector
+h2.color,h1.color
+{
+    color: blue;
+    text-decoration: dashed;
+    text-shadow: 2px 3px 1px green;
+    font-family: 'Times New Roman', Times, serif;
+} */
+
+/* genric class selector */
+.color
+{
+    color: rgb(158, 76, 84);
+    text-decoration: dashed;
+    text-shadow: 2px 3px 1px rgb(32, 0, 128);
+    font-style: normal;
+}
+
+.s
+{
+    font-style: italic;
+}
+
+.d
+{
+    text-decoration: underline;
+}
+
+.s,.d
+{
+    color: brown;
+}
+
+/* id selector */
+#clr
+{
+    color: cadetblue;
+    font-style: italic;
+
+}
+
+/* <!-- attributr and attribute value selector --> */
+input[maxlength],input[required]
+{
+    background-color: bisque;
+    
+}
+
+input[type=password]
+{
+    background-color: blueviolet;
+    
+}
+
+/* descendent child selector */
+div a
+{
+color: deeppink;
+}
+
+/* direct child selector */
+div>a
+{
+color: navy;
+}
+
+/* adjacent sibling selector */
+div+a
+{
+ color:darkred;
+ font-style: italic;
+}
+
+/* direct sibling selector */
+div~a
+{
+    color: blue;
+}
+
+/* universal selector */
+
+*
+{
+    color:cornflowerblue;
+}
+
+
+

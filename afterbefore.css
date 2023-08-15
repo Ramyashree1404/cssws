@@ -1,0 +1,100 @@
+h1::before
+{
+    content: "I am ";
+}
+h1::after
+{
+    content: " from jspider.";
+}
+
+section
+{
+    height: 184px;
+    width: 267px;
+    /* border: 2px solid red; */
+    position: relative;
+    overflow: hidden;
+}
+section img
+{
+    height: 100%;
+    width: 100%;
+ 
+}
+.child
+{
+    height: 152px;
+    width: 228px;
+    background-color: rgba(0, 0, 255, 0.142);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 16px;
+    bottom: 0px;
+    right: 22px;
+    color: white;
+    transition: all .5s;
+    opacity: 0;
+    
+}
+.child p
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-top: -10px;
+    margin-bottom: 3px;
+}
+.child i
+{
+    font-size: 23px;
+}
+section:hover .child
+{
+    transform: scale(1.2);
+    opacity: 1;
+}
+.child::before
+{
+    content: "";
+    height: 40px; 
+    width: 25px;
+    border-top: 3px solid white;
+    border-left: 3px solid white;
+    position: relative;
+    right: 79px;
+    top:10px;
+}
+.child::after
+{
+    content: "";
+    height: 40px; 
+    width: 25px;
+    border-bottom: 3px solid white;
+    border-right: 3px solid white;
+    position: relative;
+    left: 79px;
+    bottom:10px;
+   
+}
+
+div
+{
+    margin:30px auto;
+    height: 244px;
+    width: 267px;
+    /* border: 2px solid red; */
+}
+img
+{
+    height: 100%;
+    width: 100%;
+    filter: grayscale(100%);
+    transition: all .5s;
+}
+div:hover img
+{
+   filter: none;
+   transform:scale(1.2);
+}

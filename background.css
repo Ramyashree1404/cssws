@@ -1,0 +1,43 @@
+/* body
+{
+    background-image: url(./pexels-photo-4215113.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-position: center center;
+} */
+
+.bg-card
+{
+    background-image: linear-gradient(hsl(0, 17%, 60%), rgb(85, 85, 111,0.35),rgba(151, 115, 151, 0.25),rgba(170, 115, 144, 0.255)),url(./pexels-photo-4215113.jpeg);
+    background-image: radial-gradient(red, blue,violet,deeppink); 
+    height: 400px;
+    width: 300px;
+    margin: 100px auto;
+    color: white
+}
+
+.my-trip
+{
+    background-image: linear-gradient(rgb(0, 0, 0,0.256),rgb(0, 0, 0,0.256)),url(./source.webp);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 400px;
+    color: white;
+    box-sizing: border-box;
+    font-size: 12px;
+    margin: 50px auto;
+    padding: 20px;
+  
+
+}
+
+.hr
+{
+    background-color: red;
+    border: none;
+    height: 3px;
+}

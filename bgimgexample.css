@@ -1,0 +1,42 @@
+*
+{
+    margin: 0;
+    border: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+}
+
+/* banner strat */
+
+.banner
+{
+background-color: red;
+padding: 20px;
+height: 400px;
+background-image: url(./source.webp);
+background-repeat: no-repeat;
+background-position: center center;
+background-size: 100% 100%;
+background-attachment: fixed;
+}
+
+.banner-content a
+{
+border: 2px solid white;
+color:white;
+text-decoration: none;
+padding: 5px 15px;
+font-weight: 600px;
+border-radius: 4px;
+
+}
+.banner .banner-content p
+{
+    margin-top:30px;
+    margin-bottom: 50px;
+
+}
