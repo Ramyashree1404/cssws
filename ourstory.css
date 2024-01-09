@@ -16,9 +16,10 @@ nav
     /* border: 2px solid red; */
     padding: 15px;
     box-shadow: 2px 2px 10px 8px rgba(128, 128, 128, 0.233);
-    /* position: fixed;
-    top: 0; */
-    /* z-index: 100000; */
+    position: fixed;
+    top: 0;
+    z-index: 100000;
+    background-color: white;
 
 }
 .nav-logo
@@ -274,13 +275,13 @@ nav ul li a:hover
      footer
      {
          height: 300px;
-         width: 1160px;
+         width: 1242px;
          /* border: 2px solid red; */
          margin: 58px;
          text-align: center;
          background-color: #1d284b;
          margin-top: 122px;
-         margin-left: -786px;
+         margin-left: -853px;
      }
      footer h1
      {
@@ -334,7 +335,7 @@ nav ul li a:hover
          border-radius: 100%;
          display: block;
          bottom: 21px;
-         right: 70px;
+         right: 26px;
         z-index: 3000;
         position: fixed;
         padding: 8px 10px;
